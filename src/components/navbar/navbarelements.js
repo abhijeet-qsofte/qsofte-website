@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
 import { DiScala } from "react-icons/Di"
+import Logo from "../../images/logo.png"
 
 export const Nav = styled.nav`
   background: ${({ active }) =>
@@ -15,6 +16,8 @@ export const Nav = styled.nav`
   postion: sicky;
   top: 0;
   z-index: 999;
+  margin-top: 40px;
+  margin-left: 100px;
 
   @media screen and (max-width: 960px) {
     background: ${({ click }) => (click ? "#fff" : "transparent")};
@@ -37,6 +40,11 @@ export const NavLogo = styled(Link)`
   font-size: 1.5rem;
   display: flex;
   align-items: top;
+  background-image: url(${Logo});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 130px;
 `
 export const MobileIcon = styled.div`
   display: none;
