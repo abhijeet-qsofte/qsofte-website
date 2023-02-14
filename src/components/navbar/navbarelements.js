@@ -9,7 +9,7 @@ export const Nav = styled.nav`
       : "linear-gradient(to bottom, rgba(255,255,255, 0.9) 0%, rgba(255,255,255,0) 100% ) "};
   height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   font-size: 1rem;
   postion: sicky;
@@ -33,10 +33,10 @@ export const NavLogo = styled(Link)`
   color: #141414;
   justify-self: flex-start;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: navy;
   font-size: 1.5rem;
   display: flex;
-  align-items: center;
+  align-items: top;
 `
 export const MobileIcon = styled.div`
   display: none;
