@@ -13,7 +13,7 @@ export const Nav = styled.nav`
   justify-content: flex-start;
   align-items: center;
   font-size: 1rem;
-  postion: sicky;
+  position: sicky;
   top: 0;
   z-index: 999;
   margin-top: 40px;
@@ -28,7 +28,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  heignt: 100px;
+  height: 100px;
   z-index: 1;
   max-width: 1000px;
 `
