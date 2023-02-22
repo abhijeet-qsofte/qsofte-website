@@ -8,7 +8,7 @@ export const Nav = styled.nav`
     active
       ? "#fff"
       : "linear-gradient(to bottom, rgba(255,255,255, 0.9) 0%, rgba(255,255,255,0) 100% ) "};
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -28,7 +28,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  heignt: 80px;
+  heignt: 100px;
   z-index: 1;
   max-width: 1000px;
 `
@@ -43,7 +43,7 @@ export const NavLogo = styled(Link)`
   background-image: url(${Logo});
   background-size: contain;
   background-repeat: no-repeat;
-  height: 80px;
+  height: 100px;
   width: 130px;
 `
 export const MobileIcon = styled.div`
