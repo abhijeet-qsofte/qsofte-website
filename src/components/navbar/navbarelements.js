@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
-import { DiScala } from "react-icons/Di"
+import { DiScala } from "react-icons/di"
 import Logo from "../../images/logo.png"
 
 export const Nav = styled.nav`
