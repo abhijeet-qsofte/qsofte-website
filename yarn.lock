@@ -5093,7 +5093,7 @@ gatsby-plugin-sharp@^5.5.0:
     semver "^7.3.8"
     sharp "^0.31.3"
 
-gatsby-plugin-styled-components@^6.6.0:
+gatsby-plugin-styled-components@^6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-6.7.0.tgz#208a106a87867cb7f4f10c56ff12ec203e904389"
   integrity sha512-naQ3LfYqgFLOdRiKLpxcWalcVLzeliLBx2uH0kSVNoJKkMmfyDo8g9kV81Jdkp9Fm1H/AMN1qT317w1vaqSiwQ==
@@ -8775,7 +8775,7 @@ style-loader@^2.0.0:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
-styled-components@^5.3.3:
+styled-components@^5.3.6:
   version "5.3.6"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-5.3.6.tgz#27753c8c27c650bee9358e343fc927966bfd00d1"
   integrity sha512-hGTZquGAaTqhGWldX7hhfzjnIYBZ0IXQXkCYdvF1Sq3DsUaLx6+NTHC5Jj1ooM2F68sBiVz3lvhfwQs/S3l6qg==
