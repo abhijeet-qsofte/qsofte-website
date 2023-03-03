@@ -6,7 +6,7 @@ import * as styles from "../components/index.module.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Qsofte" />
     <h1>Hi People</h1>
     <p>Welcome</p>
   </Layout>
